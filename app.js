@@ -9,6 +9,8 @@ const tasks = [
   },
 ];
 
+//ТУТ БЫЛ ДОБАВЛЕН КОММЕНТАРИЙ!!!
+
 (function (arrOfTasks) {
   const objOfTasks = arrOfTasks.reduce((acc, task) => {
     acc[task._id] = task;
